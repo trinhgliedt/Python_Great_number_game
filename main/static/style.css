@@ -1,0 +1,51 @@
+*{
+    /* outline: 1px solid rgb(245, 111, 111); */
+    margin: 0 auto;
+    
+}
+
+#wrapper {
+    margin-top: 20px;
+    border:2px solid rgb(190, 190, 190);
+    width:400px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255, 208, 0, 0.493), rgba(255, 196, 0, 0.664), rgba(255, 208, 0, 0.493));
+}
+
+input {
+    margin: 30px 135px 10px 135px;
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+input, button {
+    display: block;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+button {
+    border: 1px solid grey;
+    box-shadow: 3px 3px black;
+    margin-top: 30px;
+}
+
+#result-box {
+    padding: 20px 0;
+    color: white;
+    height: 110px;
+    margin: 10px 100px;
+    font-size: x-large;
+    border: 2px solid black;
+}

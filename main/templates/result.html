@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Number Game</title>
+    <style>
+        #result-box {
+            background-color: {{ request.session.bg_color }};
+            /* font: large; */
+        }
+    </style>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <h3>Welcome to the Great Number Game!</h3>
+        <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a guess!</p>
+        <div id="result-box">
+            {{ request.session.result }}
+            <!-- <form action="/">
+                {% csrf_token %}
+                <button>Play again</button>
+            </form> -->
+        </div>
+    </div>
+
+</body>
+</html>
